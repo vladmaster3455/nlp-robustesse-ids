@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.venv/
+venv/
+
+# Data and artifacts
+results/*.joblib
+results/*.json
+reports/*.json
+reports/*.md
+
+# OS/IDE
+.DS_Store
+.vscode/
+.idea/

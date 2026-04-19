@@ -1,0 +1,501 @@
+text,label
+DoS_syn_flood source=192.168.1.100 dest=10.0.0.1 port=80 protocol=tcp,attack
+DoS_syn_flood source=192.168.1.100 dest=10.0.0.1 port=80 protocol=tcp,attack
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+HTTPS_connection source=192.168.0.51 dest=142.250.185.46 port=443 tls=1.3,normal
+HTTPS_connection source=192.168.0.51 dest=142.250.185.46 port=443 tls=1.3,normal
+Brute_force_ssh source=203.0.113.45 dest=10.0.0.5 port=22 attempts=1000,attack
+DoS_syn_flood source=192.168.1.100 dest=10.0.0.1 port=80 protocol=tcp,attack
+Mail_smtp source=192.168.0.54 dest=10.0.0.30 port=25 status=250,normal
+HTTP_request source=192.168.0.50 dest=93.184.216.34 port=80 status=200,normal
+Mail_smtp source=192.168.0.54 dest=10.0.0.30 port=25 status=250,normal
+SQL_injection input=admin_form query_length=500 encoding=utf8,attack
+DoS_syn_flood source=192.168.1.100 dest=10.0.0.1 port=80 protocol=tcp,attack
+HTTP_request source=192.168.0.50 dest=93.184.216.34 port=80 status=200,normal
+HTTP_request source=192.168.0.50 dest=93.184.216.34 port=80 status=200,normal
+HTTPS_connection source=192.168.0.51 dest=142.250.185.46 port=443 tls=1.3,normal
+Brute_force_ssh source=203.0.113.45 dest=10.0.0.5 port=22 attempts=1000,attack
+Port_scan source=198.51.100.10 dest=10.0.0.0/24 ports=1-65535 scan_type=syn,attack
+Mail_smtp source=192.168.0.54 dest=10.0.0.30 port=25 status=250,normal
+HTTP_request source=192.168.0.50 dest=93.184.216.34 port=80 status=200,normal
+Mail_smtp source=192.168.0.54 dest=10.0.0.30 port=25 status=250,normal
+Brute_force_ssh source=203.0.113.45 dest=10.0.0.5 port=22 attempts=1000,attack
+Port_scan source=198.51.100.10 dest=10.0.0.0/24 ports=1-65535 scan_type=syn,attack
+FTP_transfer source=192.168.0.53 dest=10.0.0.20 port=21 size=1024,normal
+HTTPS_connection source=192.168.0.51 dest=142.250.185.46 port=443 tls=1.3,normal
+FTP_transfer source=192.168.0.53 dest=10.0.0.20 port=21 size=1024,normal
+Port_scan source=198.51.100.10 dest=10.0.0.0/24 ports=1-65535 scan_type=syn,attack
+Malware_detection payload=suspicious_binary size=5MB hash=abc123,attack
+HTTP_request source=192.168.0.50 dest=93.184.216.34 port=80 status=200,normal
+HTTPS_connection source=192.168.0.51 dest=142.250.185.46 port=443 tls=1.3,normal
+FTP_transfer source=192.168.0.53 dest=10.0.0.20 port=21 size=1024,normal
+Malware_detection payload=suspicious_binary size=5MB hash=abc123,attack
+Malware_detection payload=suspicious_binary size=5MB hash=abc123,attack
+HTTPS_connection source=192.168.0.51 dest=142.250.185.46 port=443 tls=1.3,normal
+HTTPS_connection source=192.168.0.51 dest=142.250.185.46 port=443 tls=1.3,normal
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+DoS_syn_flood source=192.168.1.100 dest=10.0.0.1 port=80 protocol=tcp,attack
+DoS_syn_flood source=192.168.1.100 dest=10.0.0.1 port=80 protocol=tcp,attack
+FTP_transfer source=192.168.0.53 dest=10.0.0.20 port=21 size=1024,normal
+HTTP_request source=192.168.0.50 dest=93.184.216.34 port=80 status=200,normal
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+Malware_detection payload=suspicious_binary size=5MB hash=abc123,attack
+Port_scan source=198.51.100.10 dest=10.0.0.0/24 ports=1-65535 scan_type=syn,attack
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+HTTP_request source=192.168.0.50 dest=93.184.216.34 port=80 status=200,normal
+FTP_transfer source=192.168.0.53 dest=10.0.0.20 port=21 size=1024,normal
+Port_scan source=198.51.100.10 dest=10.0.0.0/24 ports=1-65535 scan_type=syn,attack
+DoS_syn_flood source=192.168.1.100 dest=10.0.0.1 port=80 protocol=tcp,attack
+FTP_transfer source=192.168.0.53 dest=10.0.0.20 port=21 size=1024,normal
+HTTP_request source=192.168.0.50 dest=93.184.216.34 port=80 status=200,normal
+Mail_smtp source=192.168.0.54 dest=10.0.0.30 port=25 status=250,normal
+Malware_detection payload=suspicious_binary size=5MB hash=abc123,attack
+Port_scan source=198.51.100.10 dest=10.0.0.0/24 ports=1-65535 scan_type=syn,attack
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+Mail_smtp source=192.168.0.54 dest=10.0.0.30 port=25 status=250,normal
+HTTPS_connection source=192.168.0.51 dest=142.250.185.46 port=443 tls=1.3,normal
+DoS_syn_flood source=192.168.1.100 dest=10.0.0.1 port=80 protocol=tcp,attack
+DoS_syn_flood source=192.168.1.100 dest=10.0.0.1 port=80 protocol=tcp,attack
+HTTPS_connection source=192.168.0.51 dest=142.250.185.46 port=443 tls=1.3,normal
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+HTTP_request source=192.168.0.50 dest=93.184.216.34 port=80 status=200,normal
+Brute_force_ssh source=203.0.113.45 dest=10.0.0.5 port=22 attempts=1000,attack
+DoS_syn_flood source=192.168.1.100 dest=10.0.0.1 port=80 protocol=tcp,attack
+FTP_transfer source=192.168.0.53 dest=10.0.0.20 port=21 size=1024,normal
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+FTP_transfer source=192.168.0.53 dest=10.0.0.20 port=21 size=1024,normal
+Malware_detection payload=suspicious_binary size=5MB hash=abc123,attack
+Brute_force_ssh source=203.0.113.45 dest=10.0.0.5 port=22 attempts=1000,attack
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+HTTPS_connection source=192.168.0.51 dest=142.250.185.46 port=443 tls=1.3,normal
+Malware_detection payload=suspicious_binary size=5MB hash=abc123,attack
+DoS_syn_flood source=192.168.1.100 dest=10.0.0.1 port=80 protocol=tcp,attack
+Mail_smtp source=192.168.0.54 dest=10.0.0.30 port=25 status=250,normal
+HTTPS_connection source=192.168.0.51 dest=142.250.185.46 port=443 tls=1.3,normal
+Mail_smtp source=192.168.0.54 dest=10.0.0.30 port=25 status=250,normal
+Brute_force_ssh source=203.0.113.45 dest=10.0.0.5 port=22 attempts=1000,attack
+Brute_force_ssh source=203.0.113.45 dest=10.0.0.5 port=22 attempts=1000,attack
+FTP_transfer source=192.168.0.53 dest=10.0.0.20 port=21 size=1024,normal
+FTP_transfer source=192.168.0.53 dest=10.0.0.20 port=21 size=1024,normal
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+Port_scan source=198.51.100.10 dest=10.0.0.0/24 ports=1-65535 scan_type=syn,attack
+Brute_force_ssh source=203.0.113.45 dest=10.0.0.5 port=22 attempts=1000,attack
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+HTTP_request source=192.168.0.50 dest=93.184.216.34 port=80 status=200,normal
+HTTPS_connection source=192.168.0.51 dest=142.250.185.46 port=443 tls=1.3,normal
+DoS_syn_flood source=192.168.1.100 dest=10.0.0.1 port=80 protocol=tcp,attack
+Malware_detection payload=suspicious_binary size=5MB hash=abc123,attack
+FTP_transfer source=192.168.0.53 dest=10.0.0.20 port=21 size=1024,normal
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+HTTP_request source=192.168.0.50 dest=93.184.216.34 port=80 status=200,normal
+Brute_force_ssh source=203.0.113.45 dest=10.0.0.5 port=22 attempts=1000,attack
+Port_scan source=198.51.100.10 dest=10.0.0.0/24 ports=1-65535 scan_type=syn,attack
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+HTTPS_connection source=192.168.0.51 dest=142.250.185.46 port=443 tls=1.3,normal
+FTP_transfer source=192.168.0.53 dest=10.0.0.20 port=21 size=1024,normal
+SQL_injection input=admin_form query_length=500 encoding=utf8,attack
+SQL_injection input=admin_form query_length=500 encoding=utf8,attack
+HTTPS_connection source=192.168.0.51 dest=142.250.185.46 port=443 tls=1.3,normal
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+HTTPS_connection source=192.168.0.51 dest=142.250.185.46 port=443 tls=1.3,normal
+Brute_force_ssh source=203.0.113.45 dest=10.0.0.5 port=22 attempts=1000,attack
+Port_scan source=198.51.100.10 dest=10.0.0.0/24 ports=1-65535 scan_type=syn,attack
+Mail_smtp source=192.168.0.54 dest=10.0.0.30 port=25 status=250,normal
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+Mail_smtp source=192.168.0.54 dest=10.0.0.30 port=25 status=250,normal
+SQL_injection input=admin_form query_length=500 encoding=utf8,attack
+Port_scan source=198.51.100.10 dest=10.0.0.0/24 ports=1-65535 scan_type=syn,attack
+FTP_transfer source=192.168.0.53 dest=10.0.0.20 port=21 size=1024,normal
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+HTTPS_connection source=192.168.0.51 dest=142.250.185.46 port=443 tls=1.3,normal
+Brute_force_ssh source=203.0.113.45 dest=10.0.0.5 port=22 attempts=1000,attack
+Port_scan source=198.51.100.10 dest=10.0.0.0/24 ports=1-65535 scan_type=syn,attack
+FTP_transfer source=192.168.0.53 dest=10.0.0.20 port=21 size=1024,normal
+HTTP_request source=192.168.0.50 dest=93.184.216.34 port=80 status=200,normal
+HTTP_request source=192.168.0.50 dest=93.184.216.34 port=80 status=200,normal
+DoS_syn_flood source=192.168.1.100 dest=10.0.0.1 port=80 protocol=tcp,attack
+Brute_force_ssh source=203.0.113.45 dest=10.0.0.5 port=22 attempts=1000,attack
+HTTPS_connection source=192.168.0.51 dest=142.250.185.46 port=443 tls=1.3,normal
+FTP_transfer source=192.168.0.53 dest=10.0.0.20 port=21 size=1024,normal
+Mail_smtp source=192.168.0.54 dest=10.0.0.30 port=25 status=250,normal
+DoS_syn_flood source=192.168.1.100 dest=10.0.0.1 port=80 protocol=tcp,attack
+SQL_injection input=admin_form query_length=500 encoding=utf8,attack
+FTP_transfer source=192.168.0.53 dest=10.0.0.20 port=21 size=1024,normal
+Mail_smtp source=192.168.0.54 dest=10.0.0.30 port=25 status=250,normal
+FTP_transfer source=192.168.0.53 dest=10.0.0.20 port=21 size=1024,normal
+Port_scan source=198.51.100.10 dest=10.0.0.0/24 ports=1-65535 scan_type=syn,attack
+Malware_detection payload=suspicious_binary size=5MB hash=abc123,attack
+Mail_smtp source=192.168.0.54 dest=10.0.0.30 port=25 status=250,normal
+HTTP_request source=192.168.0.50 dest=93.184.216.34 port=80 status=200,normal
+HTTP_request source=192.168.0.50 dest=93.184.216.34 port=80 status=200,normal
+Port_scan source=198.51.100.10 dest=10.0.0.0/24 ports=1-65535 scan_type=syn,attack
+Malware_detection payload=suspicious_binary size=5MB hash=abc123,attack
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+HTTP_request source=192.168.0.50 dest=93.184.216.34 port=80 status=200,normal
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+SQL_injection input=admin_form query_length=500 encoding=utf8,attack
+Brute_force_ssh source=203.0.113.45 dest=10.0.0.5 port=22 attempts=1000,attack
+FTP_transfer source=192.168.0.53 dest=10.0.0.20 port=21 size=1024,normal
+HTTP_request source=192.168.0.50 dest=93.184.216.34 port=80 status=200,normal
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+Port_scan source=198.51.100.10 dest=10.0.0.0/24 ports=1-65535 scan_type=syn,attack
+Brute_force_ssh source=203.0.113.45 dest=10.0.0.5 port=22 attempts=1000,attack
+Mail_smtp source=192.168.0.54 dest=10.0.0.30 port=25 status=250,normal
+HTTP_request source=192.168.0.50 dest=93.184.216.34 port=80 status=200,normal
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+Port_scan source=198.51.100.10 dest=10.0.0.0/24 ports=1-65535 scan_type=syn,attack
+Port_scan source=198.51.100.10 dest=10.0.0.0/24 ports=1-65535 scan_type=syn,attack
+HTTPS_connection source=192.168.0.51 dest=142.250.185.46 port=443 tls=1.3,normal
+HTTPS_connection source=192.168.0.51 dest=142.250.185.46 port=443 tls=1.3,normal
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+Brute_force_ssh source=203.0.113.45 dest=10.0.0.5 port=22 attempts=1000,attack
+Port_scan source=198.51.100.10 dest=10.0.0.0/24 ports=1-65535 scan_type=syn,attack
+Mail_smtp source=192.168.0.54 dest=10.0.0.30 port=25 status=250,normal
+HTTP_request source=192.168.0.50 dest=93.184.216.34 port=80 status=200,normal
+Mail_smtp source=192.168.0.54 dest=10.0.0.30 port=25 status=250,normal
+Malware_detection payload=suspicious_binary size=5MB hash=abc123,attack
+SQL_injection input=admin_form query_length=500 encoding=utf8,attack
+HTTP_request source=192.168.0.50 dest=93.184.216.34 port=80 status=200,normal
+HTTP_request source=192.168.0.50 dest=93.184.216.34 port=80 status=200,normal
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+Malware_detection payload=suspicious_binary size=5MB hash=abc123,attack
+Brute_force_ssh source=203.0.113.45 dest=10.0.0.5 port=22 attempts=1000,attack
+HTTP_request source=192.168.0.50 dest=93.184.216.34 port=80 status=200,normal
+HTTPS_connection source=192.168.0.51 dest=142.250.185.46 port=443 tls=1.3,normal
+Mail_smtp source=192.168.0.54 dest=10.0.0.30 port=25 status=250,normal
+DoS_syn_flood source=192.168.1.100 dest=10.0.0.1 port=80 protocol=tcp,attack
+DoS_syn_flood source=192.168.1.100 dest=10.0.0.1 port=80 protocol=tcp,attack
+FTP_transfer source=192.168.0.53 dest=10.0.0.20 port=21 size=1024,normal
+HTTP_request source=192.168.0.50 dest=93.184.216.34 port=80 status=200,normal
+Mail_smtp source=192.168.0.54 dest=10.0.0.30 port=25 status=250,normal
+Brute_force_ssh source=203.0.113.45 dest=10.0.0.5 port=22 attempts=1000,attack
+Brute_force_ssh source=203.0.113.45 dest=10.0.0.5 port=22 attempts=1000,attack
+FTP_transfer source=192.168.0.53 dest=10.0.0.20 port=21 size=1024,normal
+Mail_smtp source=192.168.0.54 dest=10.0.0.30 port=25 status=250,normal
+HTTPS_connection source=192.168.0.51 dest=142.250.185.46 port=443 tls=1.3,normal
+Malware_detection payload=suspicious_binary size=5MB hash=abc123,attack
+Port_scan source=198.51.100.10 dest=10.0.0.0/24 ports=1-65535 scan_type=syn,attack
+Mail_smtp source=192.168.0.54 dest=10.0.0.30 port=25 status=250,normal
+FTP_transfer source=192.168.0.53 dest=10.0.0.20 port=21 size=1024,normal
+HTTPS_connection source=192.168.0.51 dest=142.250.185.46 port=443 tls=1.3,normal
+Port_scan source=198.51.100.10 dest=10.0.0.0/24 ports=1-65535 scan_type=syn,attack
+Brute_force_ssh source=203.0.113.45 dest=10.0.0.5 port=22 attempts=1000,attack
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+FTP_transfer source=192.168.0.53 dest=10.0.0.20 port=21 size=1024,normal
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+SQL_injection input=admin_form query_length=500 encoding=utf8,attack
+Port_scan source=198.51.100.10 dest=10.0.0.0/24 ports=1-65535 scan_type=syn,attack
+FTP_transfer source=192.168.0.53 dest=10.0.0.20 port=21 size=1024,normal
+HTTP_request source=192.168.0.50 dest=93.184.216.34 port=80 status=200,normal
+HTTPS_connection source=192.168.0.51 dest=142.250.185.46 port=443 tls=1.3,normal
+Brute_force_ssh source=203.0.113.45 dest=10.0.0.5 port=22 attempts=1000,attack
+DoS_syn_flood source=192.168.1.100 dest=10.0.0.1 port=80 protocol=tcp,attack
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+HTTP_request source=192.168.0.50 dest=93.184.216.34 port=80 status=200,normal
+Mail_smtp source=192.168.0.54 dest=10.0.0.30 port=25 status=250,normal
+Port_scan source=198.51.100.10 dest=10.0.0.0/24 ports=1-65535 scan_type=syn,attack
+Brute_force_ssh source=203.0.113.45 dest=10.0.0.5 port=22 attempts=1000,attack
+Mail_smtp source=192.168.0.54 dest=10.0.0.30 port=25 status=250,normal
+HTTPS_connection source=192.168.0.51 dest=142.250.185.46 port=443 tls=1.3,normal
+HTTP_request source=192.168.0.50 dest=93.184.216.34 port=80 status=200,normal
+DoS_syn_flood source=192.168.1.100 dest=10.0.0.1 port=80 protocol=tcp,attack
+DoS_syn_flood source=192.168.1.100 dest=10.0.0.1 port=80 protocol=tcp,attack
+HTTPS_connection source=192.168.0.51 dest=142.250.185.46 port=443 tls=1.3,normal
+HTTP_request source=192.168.0.50 dest=93.184.216.34 port=80 status=200,normal
+HTTP_request source=192.168.0.50 dest=93.184.216.34 port=80 status=200,normal
+Malware_detection payload=suspicious_binary size=5MB hash=abc123,attack
+DoS_syn_flood source=192.168.1.100 dest=10.0.0.1 port=80 protocol=tcp,attack
+Mail_smtp source=192.168.0.54 dest=10.0.0.30 port=25 status=250,normal
+HTTPS_connection source=192.168.0.51 dest=142.250.185.46 port=443 tls=1.3,normal
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+SQL_injection input=admin_form query_length=500 encoding=utf8,attack
+Brute_force_ssh source=203.0.113.45 dest=10.0.0.5 port=22 attempts=1000,attack
+Mail_smtp source=192.168.0.54 dest=10.0.0.30 port=25 status=250,normal
+HTTPS_connection source=192.168.0.51 dest=142.250.185.46 port=443 tls=1.3,normal
+Mail_smtp source=192.168.0.54 dest=10.0.0.30 port=25 status=250,normal
+Port_scan source=198.51.100.10 dest=10.0.0.0/24 ports=1-65535 scan_type=syn,attack
+SQL_injection input=admin_form query_length=500 encoding=utf8,attack
+HTTPS_connection source=192.168.0.51 dest=142.250.185.46 port=443 tls=1.3,normal
+FTP_transfer source=192.168.0.53 dest=10.0.0.20 port=21 size=1024,normal
+FTP_transfer source=192.168.0.53 dest=10.0.0.20 port=21 size=1024,normal
+Brute_force_ssh source=203.0.113.45 dest=10.0.0.5 port=22 attempts=1000,attack
+DoS_syn_flood source=192.168.1.100 dest=10.0.0.1 port=80 protocol=tcp,attack
+HTTP_request source=192.168.0.50 dest=93.184.216.34 port=80 status=200,normal
+FTP_transfer source=192.168.0.53 dest=10.0.0.20 port=21 size=1024,normal
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+SQL_injection input=admin_form query_length=500 encoding=utf8,attack
+SQL_injection input=admin_form query_length=500 encoding=utf8,attack
+FTP_transfer source=192.168.0.53 dest=10.0.0.20 port=21 size=1024,normal
+HTTP_request source=192.168.0.50 dest=93.184.216.34 port=80 status=200,normal
+HTTP_request source=192.168.0.50 dest=93.184.216.34 port=80 status=200,normal
+DoS_syn_flood source=192.168.1.100 dest=10.0.0.1 port=80 protocol=tcp,attack
+SQL_injection input=admin_form query_length=500 encoding=utf8,attack
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+HTTP_request source=192.168.0.50 dest=93.184.216.34 port=80 status=200,normal
+HTTPS_connection source=192.168.0.51 dest=142.250.185.46 port=443 tls=1.3,normal
+Brute_force_ssh source=203.0.113.45 dest=10.0.0.5 port=22 attempts=1000,attack
+Brute_force_ssh source=203.0.113.45 dest=10.0.0.5 port=22 attempts=1000,attack
+Mail_smtp source=192.168.0.54 dest=10.0.0.30 port=25 status=250,normal
+FTP_transfer source=192.168.0.53 dest=10.0.0.20 port=21 size=1024,normal
+HTTPS_connection source=192.168.0.51 dest=142.250.185.46 port=443 tls=1.3,normal
+SQL_injection input=admin_form query_length=500 encoding=utf8,attack
+Brute_force_ssh source=203.0.113.45 dest=10.0.0.5 port=22 attempts=1000,attack
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+FTP_transfer source=192.168.0.53 dest=10.0.0.20 port=21 size=1024,normal
+HTTPS_connection source=192.168.0.51 dest=142.250.185.46 port=443 tls=1.3,normal
+DoS_syn_flood source=192.168.1.100 dest=10.0.0.1 port=80 protocol=tcp,attack
+SQL_injection input=admin_form query_length=500 encoding=utf8,attack
+Mail_smtp source=192.168.0.54 dest=10.0.0.30 port=25 status=250,normal
+HTTP_request source=192.168.0.50 dest=93.184.216.34 port=80 status=200,normal
+HTTP_request source=192.168.0.50 dest=93.184.216.34 port=80 status=200,normal
+Port_scan source=198.51.100.10 dest=10.0.0.0/24 ports=1-65535 scan_type=syn,attack
+DoS_syn_flood source=192.168.1.100 dest=10.0.0.1 port=80 protocol=tcp,attack
+HTTP_request source=192.168.0.50 dest=93.184.216.34 port=80 status=200,normal
+HTTPS_connection source=192.168.0.51 dest=142.250.185.46 port=443 tls=1.3,normal
+HTTPS_connection source=192.168.0.51 dest=142.250.185.46 port=443 tls=1.3,normal
+SQL_injection input=admin_form query_length=500 encoding=utf8,attack
+SQL_injection input=admin_form query_length=500 encoding=utf8,attack
+FTP_transfer source=192.168.0.53 dest=10.0.0.20 port=21 size=1024,normal
+HTTPS_connection source=192.168.0.51 dest=142.250.185.46 port=443 tls=1.3,normal
+FTP_transfer source=192.168.0.53 dest=10.0.0.20 port=21 size=1024,normal
+DoS_syn_flood source=192.168.1.100 dest=10.0.0.1 port=80 protocol=tcp,attack
+Brute_force_ssh source=203.0.113.45 dest=10.0.0.5 port=22 attempts=1000,attack
+FTP_transfer source=192.168.0.53 dest=10.0.0.20 port=21 size=1024,normal
+HTTP_request source=192.168.0.50 dest=93.184.216.34 port=80 status=200,normal
+FTP_transfer source=192.168.0.53 dest=10.0.0.20 port=21 size=1024,normal
+Malware_detection payload=suspicious_binary size=5MB hash=abc123,attack
+SQL_injection input=admin_form query_length=500 encoding=utf8,attack
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+FTP_transfer source=192.168.0.53 dest=10.0.0.20 port=21 size=1024,normal
+Mail_smtp source=192.168.0.54 dest=10.0.0.30 port=25 status=250,normal
+SQL_injection input=admin_form query_length=500 encoding=utf8,attack
+Brute_force_ssh source=203.0.113.45 dest=10.0.0.5 port=22 attempts=1000,attack
+HTTPS_connection source=192.168.0.51 dest=142.250.185.46 port=443 tls=1.3,normal
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+HTTPS_connection source=192.168.0.51 dest=142.250.185.46 port=443 tls=1.3,normal
+DoS_syn_flood source=192.168.1.100 dest=10.0.0.1 port=80 protocol=tcp,attack
+Port_scan source=198.51.100.10 dest=10.0.0.0/24 ports=1-65535 scan_type=syn,attack
+Mail_smtp source=192.168.0.54 dest=10.0.0.30 port=25 status=250,normal
+HTTP_request source=192.168.0.50 dest=93.184.216.34 port=80 status=200,normal
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+DoS_syn_flood source=192.168.1.100 dest=10.0.0.1 port=80 protocol=tcp,attack
+DoS_syn_flood source=192.168.1.100 dest=10.0.0.1 port=80 protocol=tcp,attack
+Mail_smtp source=192.168.0.54 dest=10.0.0.30 port=25 status=250,normal
+FTP_transfer source=192.168.0.53 dest=10.0.0.20 port=21 size=1024,normal
+Mail_smtp source=192.168.0.54 dest=10.0.0.30 port=25 status=250,normal
+Port_scan source=198.51.100.10 dest=10.0.0.0/24 ports=1-65535 scan_type=syn,attack
+Brute_force_ssh source=203.0.113.45 dest=10.0.0.5 port=22 attempts=1000,attack
+HTTP_request source=192.168.0.50 dest=93.184.216.34 port=80 status=200,normal
+Mail_smtp source=192.168.0.54 dest=10.0.0.30 port=25 status=250,normal
+HTTP_request source=192.168.0.50 dest=93.184.216.34 port=80 status=200,normal
+Brute_force_ssh source=203.0.113.45 dest=10.0.0.5 port=22 attempts=1000,attack
+DoS_syn_flood source=192.168.1.100 dest=10.0.0.1 port=80 protocol=tcp,attack
+Mail_smtp source=192.168.0.54 dest=10.0.0.30 port=25 status=250,normal
+HTTP_request source=192.168.0.50 dest=93.184.216.34 port=80 status=200,normal
+HTTPS_connection source=192.168.0.51 dest=142.250.185.46 port=443 tls=1.3,normal
+SQL_injection input=admin_form query_length=500 encoding=utf8,attack
+DoS_syn_flood source=192.168.1.100 dest=10.0.0.1 port=80 protocol=tcp,attack
+Mail_smtp source=192.168.0.54 dest=10.0.0.30 port=25 status=250,normal
+HTTPS_connection source=192.168.0.51 dest=142.250.185.46 port=443 tls=1.3,normal
+Mail_smtp source=192.168.0.54 dest=10.0.0.30 port=25 status=250,normal
+Port_scan source=198.51.100.10 dest=10.0.0.0/24 ports=1-65535 scan_type=syn,attack
+DoS_syn_flood source=192.168.1.100 dest=10.0.0.1 port=80 protocol=tcp,attack
+Mail_smtp source=192.168.0.54 dest=10.0.0.30 port=25 status=250,normal
+HTTP_request source=192.168.0.50 dest=93.184.216.34 port=80 status=200,normal
+FTP_transfer source=192.168.0.53 dest=10.0.0.20 port=21 size=1024,normal
+Port_scan source=198.51.100.10 dest=10.0.0.0/24 ports=1-65535 scan_type=syn,attack
+Port_scan source=198.51.100.10 dest=10.0.0.0/24 ports=1-65535 scan_type=syn,attack
+Mail_smtp source=192.168.0.54 dest=10.0.0.30 port=25 status=250,normal
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+Brute_force_ssh source=203.0.113.45 dest=10.0.0.5 port=22 attempts=1000,attack
+Malware_detection payload=suspicious_binary size=5MB hash=abc123,attack
+HTTPS_connection source=192.168.0.51 dest=142.250.185.46 port=443 tls=1.3,normal
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+FTP_transfer source=192.168.0.53 dest=10.0.0.20 port=21 size=1024,normal
+Brute_force_ssh source=203.0.113.45 dest=10.0.0.5 port=22 attempts=1000,attack
+Malware_detection payload=suspicious_binary size=5MB hash=abc123,attack
+FTP_transfer source=192.168.0.53 dest=10.0.0.20 port=21 size=1024,normal
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+HTTP_request source=192.168.0.50 dest=93.184.216.34 port=80 status=200,normal
+DoS_syn_flood source=192.168.1.100 dest=10.0.0.1 port=80 protocol=tcp,attack
+SQL_injection input=admin_form query_length=500 encoding=utf8,attack
+Mail_smtp source=192.168.0.54 dest=10.0.0.30 port=25 status=250,normal
+Mail_smtp source=192.168.0.54 dest=10.0.0.30 port=25 status=250,normal
+HTTP_request source=192.168.0.50 dest=93.184.216.34 port=80 status=200,normal
+DoS_syn_flood source=192.168.1.100 dest=10.0.0.1 port=80 protocol=tcp,attack
+Port_scan source=198.51.100.10 dest=10.0.0.0/24 ports=1-65535 scan_type=syn,attack
+HTTPS_connection source=192.168.0.51 dest=142.250.185.46 port=443 tls=1.3,normal
+Mail_smtp source=192.168.0.54 dest=10.0.0.30 port=25 status=250,normal
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+Brute_force_ssh source=203.0.113.45 dest=10.0.0.5 port=22 attempts=1000,attack
+Malware_detection payload=suspicious_binary size=5MB hash=abc123,attack
+HTTP_request source=192.168.0.50 dest=93.184.216.34 port=80 status=200,normal
+HTTPS_connection source=192.168.0.51 dest=142.250.185.46 port=443 tls=1.3,normal
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+Malware_detection payload=suspicious_binary size=5MB hash=abc123,attack
+Brute_force_ssh source=203.0.113.45 dest=10.0.0.5 port=22 attempts=1000,attack
+FTP_transfer source=192.168.0.53 dest=10.0.0.20 port=21 size=1024,normal
+Mail_smtp source=192.168.0.54 dest=10.0.0.30 port=25 status=250,normal
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+Port_scan source=198.51.100.10 dest=10.0.0.0/24 ports=1-65535 scan_type=syn,attack
+Port_scan source=198.51.100.10 dest=10.0.0.0/24 ports=1-65535 scan_type=syn,attack
+HTTP_request source=192.168.0.50 dest=93.184.216.34 port=80 status=200,normal
+Mail_smtp source=192.168.0.54 dest=10.0.0.30 port=25 status=250,normal
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+DoS_syn_flood source=192.168.1.100 dest=10.0.0.1 port=80 protocol=tcp,attack
+Brute_force_ssh source=203.0.113.45 dest=10.0.0.5 port=22 attempts=1000,attack
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+HTTP_request source=192.168.0.50 dest=93.184.216.34 port=80 status=200,normal
+HTTP_request source=192.168.0.50 dest=93.184.216.34 port=80 status=200,normal
+Port_scan source=198.51.100.10 dest=10.0.0.0/24 ports=1-65535 scan_type=syn,attack
+Brute_force_ssh source=203.0.113.45 dest=10.0.0.5 port=22 attempts=1000,attack
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+Mail_smtp source=192.168.0.54 dest=10.0.0.30 port=25 status=250,normal
+Brute_force_ssh source=203.0.113.45 dest=10.0.0.5 port=22 attempts=1000,attack
+Malware_detection payload=suspicious_binary size=5MB hash=abc123,attack
+HTTPS_connection source=192.168.0.51 dest=142.250.185.46 port=443 tls=1.3,normal
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+Mail_smtp source=192.168.0.54 dest=10.0.0.30 port=25 status=250,normal
+SQL_injection input=admin_form query_length=500 encoding=utf8,attack
+Malware_detection payload=suspicious_binary size=5MB hash=abc123,attack
+HTTP_request source=192.168.0.50 dest=93.184.216.34 port=80 status=200,normal
+HTTP_request source=192.168.0.50 dest=93.184.216.34 port=80 status=200,normal
+FTP_transfer source=192.168.0.53 dest=10.0.0.20 port=21 size=1024,normal
+Malware_detection payload=suspicious_binary size=5MB hash=abc123,attack
+DoS_syn_flood source=192.168.1.100 dest=10.0.0.1 port=80 protocol=tcp,attack
+HTTP_request source=192.168.0.50 dest=93.184.216.34 port=80 status=200,normal
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+HTTPS_connection source=192.168.0.51 dest=142.250.185.46 port=443 tls=1.3,normal
+Malware_detection payload=suspicious_binary size=5MB hash=abc123,attack
+Brute_force_ssh source=203.0.113.45 dest=10.0.0.5 port=22 attempts=1000,attack
+FTP_transfer source=192.168.0.53 dest=10.0.0.20 port=21 size=1024,normal
+Mail_smtp source=192.168.0.54 dest=10.0.0.30 port=25 status=250,normal
+FTP_transfer source=192.168.0.53 dest=10.0.0.20 port=21 size=1024,normal
+Port_scan source=198.51.100.10 dest=10.0.0.0/24 ports=1-65535 scan_type=syn,attack
+DoS_syn_flood source=192.168.1.100 dest=10.0.0.1 port=80 protocol=tcp,attack
+HTTP_request source=192.168.0.50 dest=93.184.216.34 port=80 status=200,normal
+HTTP_request source=192.168.0.50 dest=93.184.216.34 port=80 status=200,normal
+HTTPS_connection source=192.168.0.51 dest=142.250.185.46 port=443 tls=1.3,normal
+Port_scan source=198.51.100.10 dest=10.0.0.0/24 ports=1-65535 scan_type=syn,attack
+DoS_syn_flood source=192.168.1.100 dest=10.0.0.1 port=80 protocol=tcp,attack
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+Mail_smtp source=192.168.0.54 dest=10.0.0.30 port=25 status=250,normal
+Mail_smtp source=192.168.0.54 dest=10.0.0.30 port=25 status=250,normal
+Brute_force_ssh source=203.0.113.45 dest=10.0.0.5 port=22 attempts=1000,attack
+SQL_injection input=admin_form query_length=500 encoding=utf8,attack
+HTTPS_connection source=192.168.0.51 dest=142.250.185.46 port=443 tls=1.3,normal
+HTTP_request source=192.168.0.50 dest=93.184.216.34 port=80 status=200,normal
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+Malware_detection payload=suspicious_binary size=5MB hash=abc123,attack
+DoS_syn_flood source=192.168.1.100 dest=10.0.0.1 port=80 protocol=tcp,attack
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+HTTPS_connection source=192.168.0.51 dest=142.250.185.46 port=443 tls=1.3,normal
+HTTPS_connection source=192.168.0.51 dest=142.250.185.46 port=443 tls=1.3,normal
+DoS_syn_flood source=192.168.1.100 dest=10.0.0.1 port=80 protocol=tcp,attack
+Malware_detection payload=suspicious_binary size=5MB hash=abc123,attack
+Mail_smtp source=192.168.0.54 dest=10.0.0.30 port=25 status=250,normal
+FTP_transfer source=192.168.0.53 dest=10.0.0.20 port=21 size=1024,normal
+Mail_smtp source=192.168.0.54 dest=10.0.0.30 port=25 status=250,normal
+Brute_force_ssh source=203.0.113.45 dest=10.0.0.5 port=22 attempts=1000,attack
+Brute_force_ssh source=203.0.113.45 dest=10.0.0.5 port=22 attempts=1000,attack
+HTTPS_connection source=192.168.0.51 dest=142.250.185.46 port=443 tls=1.3,normal
+HTTPS_connection source=192.168.0.51 dest=142.250.185.46 port=443 tls=1.3,normal
+FTP_transfer source=192.168.0.53 dest=10.0.0.20 port=21 size=1024,normal
+DoS_syn_flood source=192.168.1.100 dest=10.0.0.1 port=80 protocol=tcp,attack
+Brute_force_ssh source=203.0.113.45 dest=10.0.0.5 port=22 attempts=1000,attack
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+FTP_transfer source=192.168.0.53 dest=10.0.0.20 port=21 size=1024,normal
+HTTPS_connection source=192.168.0.51 dest=142.250.185.46 port=443 tls=1.3,normal
+Malware_detection payload=suspicious_binary size=5MB hash=abc123,attack
+Brute_force_ssh source=203.0.113.45 dest=10.0.0.5 port=22 attempts=1000,attack
+HTTP_request source=192.168.0.50 dest=93.184.216.34 port=80 status=200,normal
+FTP_transfer source=192.168.0.53 dest=10.0.0.20 port=21 size=1024,normal
+HTTP_request source=192.168.0.50 dest=93.184.216.34 port=80 status=200,normal
+SQL_injection input=admin_form query_length=500 encoding=utf8,attack
+Brute_force_ssh source=203.0.113.45 dest=10.0.0.5 port=22 attempts=1000,attack
+HTTPS_connection source=192.168.0.51 dest=142.250.185.46 port=443 tls=1.3,normal
+FTP_transfer source=192.168.0.53 dest=10.0.0.20 port=21 size=1024,normal
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+Malware_detection payload=suspicious_binary size=5MB hash=abc123,attack
+Brute_force_ssh source=203.0.113.45 dest=10.0.0.5 port=22 attempts=1000,attack
+HTTPS_connection source=192.168.0.51 dest=142.250.185.46 port=443 tls=1.3,normal
+HTTP_request source=192.168.0.50 dest=93.184.216.34 port=80 status=200,normal
+HTTPS_connection source=192.168.0.51 dest=142.250.185.46 port=443 tls=1.3,normal
+SQL_injection input=admin_form query_length=500 encoding=utf8,attack
+Malware_detection payload=suspicious_binary size=5MB hash=abc123,attack
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+HTTP_request source=192.168.0.50 dest=93.184.216.34 port=80 status=200,normal
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+Malware_detection payload=suspicious_binary size=5MB hash=abc123,attack
+Port_scan source=198.51.100.10 dest=10.0.0.0/24 ports=1-65535 scan_type=syn,attack
+FTP_transfer source=192.168.0.53 dest=10.0.0.20 port=21 size=1024,normal
+Mail_smtp source=192.168.0.54 dest=10.0.0.30 port=25 status=250,normal
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+DoS_syn_flood source=192.168.1.100 dest=10.0.0.1 port=80 protocol=tcp,attack
+DoS_syn_flood source=192.168.1.100 dest=10.0.0.1 port=80 protocol=tcp,attack
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+HTTPS_connection source=192.168.0.51 dest=142.250.185.46 port=443 tls=1.3,normal
+Mail_smtp source=192.168.0.54 dest=10.0.0.30 port=25 status=250,normal
+Malware_detection payload=suspicious_binary size=5MB hash=abc123,attack
+DoS_syn_flood source=192.168.1.100 dest=10.0.0.1 port=80 protocol=tcp,attack
+HTTP_request source=192.168.0.50 dest=93.184.216.34 port=80 status=200,normal
+Mail_smtp source=192.168.0.54 dest=10.0.0.30 port=25 status=250,normal
+FTP_transfer source=192.168.0.53 dest=10.0.0.20 port=21 size=1024,normal
+Malware_detection payload=suspicious_binary size=5MB hash=abc123,attack
+Malware_detection payload=suspicious_binary size=5MB hash=abc123,attack
+FTP_transfer source=192.168.0.53 dest=10.0.0.20 port=21 size=1024,normal
+Mail_smtp source=192.168.0.54 dest=10.0.0.30 port=25 status=250,normal
+Mail_smtp source=192.168.0.54 dest=10.0.0.30 port=25 status=250,normal
+DoS_syn_flood source=192.168.1.100 dest=10.0.0.1 port=80 protocol=tcp,attack
+SQL_injection input=admin_form query_length=500 encoding=utf8,attack
+Mail_smtp source=192.168.0.54 dest=10.0.0.30 port=25 status=250,normal
+HTTPS_connection source=192.168.0.51 dest=142.250.185.46 port=443 tls=1.3,normal
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+DoS_syn_flood source=192.168.1.100 dest=10.0.0.1 port=80 protocol=tcp,attack
+SQL_injection input=admin_form query_length=500 encoding=utf8,attack
+HTTP_request source=192.168.0.50 dest=93.184.216.34 port=80 status=200,normal
+Mail_smtp source=192.168.0.54 dest=10.0.0.30 port=25 status=250,normal
+Mail_smtp source=192.168.0.54 dest=10.0.0.30 port=25 status=250,normal
+Brute_force_ssh source=203.0.113.45 dest=10.0.0.5 port=22 attempts=1000,attack
+Malware_detection payload=suspicious_binary size=5MB hash=abc123,attack
+FTP_transfer source=192.168.0.53 dest=10.0.0.20 port=21 size=1024,normal
+HTTP_request source=192.168.0.50 dest=93.184.216.34 port=80 status=200,normal
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+Port_scan source=198.51.100.10 dest=10.0.0.0/24 ports=1-65535 scan_type=syn,attack
+Malware_detection payload=suspicious_binary size=5MB hash=abc123,attack
+HTTP_request source=192.168.0.50 dest=93.184.216.34 port=80 status=200,normal
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+Mail_smtp source=192.168.0.54 dest=10.0.0.30 port=25 status=250,normal
+Malware_detection payload=suspicious_binary size=5MB hash=abc123,attack
+SQL_injection input=admin_form query_length=500 encoding=utf8,attack
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+FTP_transfer source=192.168.0.53 dest=10.0.0.20 port=21 size=1024,normal
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+Port_scan source=198.51.100.10 dest=10.0.0.0/24 ports=1-65535 scan_type=syn,attack
+Brute_force_ssh source=203.0.113.45 dest=10.0.0.5 port=22 attempts=1000,attack
+HTTPS_connection source=192.168.0.51 dest=142.250.185.46 port=443 tls=1.3,normal
+FTP_transfer source=192.168.0.53 dest=10.0.0.20 port=21 size=1024,normal
+FTP_transfer source=192.168.0.53 dest=10.0.0.20 port=21 size=1024,normal
+Brute_force_ssh source=203.0.113.45 dest=10.0.0.5 port=22 attempts=1000,attack
+Port_scan source=198.51.100.10 dest=10.0.0.0/24 ports=1-65535 scan_type=syn,attack
+Mail_smtp source=192.168.0.54 dest=10.0.0.30 port=25 status=250,normal
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+FTP_transfer source=192.168.0.53 dest=10.0.0.20 port=21 size=1024,normal
+Port_scan source=198.51.100.10 dest=10.0.0.0/24 ports=1-65535 scan_type=syn,attack
+DoS_syn_flood source=192.168.1.100 dest=10.0.0.1 port=80 protocol=tcp,attack
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+HTTPS_connection source=192.168.0.51 dest=142.250.185.46 port=443 tls=1.3,normal
+SQL_injection input=admin_form query_length=500 encoding=utf8,attack
+Port_scan source=198.51.100.10 dest=10.0.0.0/24 ports=1-65535 scan_type=syn,attack
+Mail_smtp source=192.168.0.54 dest=10.0.0.30 port=25 status=250,normal
+DNS_query source=192.168.0.52 dest=8.8.8.8 domain=example.com type=A,normal
+FTP_transfer source=192.168.0.53 dest=10.0.0.20 port=21 size=1024,normal
+SQL_injection input=admin_form query_length=500 encoding=utf8,attack
+SQL_injection input=admin_form query_length=500 encoding=utf8,attack
+HTTPS_connection source=192.168.0.51 dest=142.250.185.46 port=443 tls=1.3,normal
+Mail_smtp source=192.168.0.54 dest=10.0.0.30 port=25 status=250,normal
+FTP_transfer source=192.168.0.53 dest=10.0.0.20 port=21 size=1024,normal
