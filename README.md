@@ -50,7 +50,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## Test Complet (Avant GitHub)
+## Test Complet 
 
 **La manière la plus simple de tester le projet :**
 
